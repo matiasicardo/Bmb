@@ -1,0 +1,15 @@
+$primero: #DBE2EF;
+$segundo: #112D4E;
+$font-size: 110%;
+
+p {
+    color: $segundo;
+    padding-top: 15%;
+    padding-right: 20%;
+    padding-left: 30%;
+    padding-bottom: 15%;
+    font-size: $font-size;
+    line-height: 35px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}

@@ -1,0 +1,78 @@
+.bg-fondo {
+  background: #112D4E;
+}
+
+.ul {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.body header nav ul li a:hover {
+  border-bottom: 2px solid #DBE2EF;
+}
+
+p {
+  color: #112D4E;
+  padding-top: 15%;
+  padding-right: 20%;
+  padding-left: 30%;
+  padding-bottom: 15%;
+  font-size: 110%;
+  line-height: 35px;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.footer {
+  background-color: #112D4E;
+  padding: 1%;
+  display: flex;
+}
+
+div ul {
+  list-style: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px 300px 300px 300px;
+  gap: 20px;
+}
+
+.grid-item {
+  border: 2px solid black;
+  transition: all 1s;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 296px;
+  object-fit: cover;
+}
+
+.grid-item:hover {
+  transform: scale(1.5);
+}
+
+.contacto__form {
+  width: 60rem;
+  background-color: #112D4E;
+  border: 2px #DBE2EF solid;
+  color: #DBE2EF;
+  font-size: 150%;
+  font-family: "Nunito Sans", sans-serif;
+  margin: auto;
+  padding: 1.5rem;
+}
+.contacto__form .form-group {
+  padding: 0.5em;
+}
+.contacto__form .form-group .btn-light {
+  color: #112D4E;
+  background-color: #DBE2EF;
+  font-size: 110%;
+  border: 1px #DBE2EF solid;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,133 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap');
+</style>
+* {
+    margin: 0;
+    padding: 0;
+} /*estilo html*/
+
+body {
+    background: #DBE2EF;
+    color: #000000;
+}
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+} /* header */
+
+ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabeza {
+    width: 100%;
+    padding: 0%;
+    background-color: #112D4E;
+}
+
+.iconobmb {
+    width: 5%;
+}
+
+body header nav ul {
+    display: flex;
+}
+
+body header nav ul li {
+    padding: 2%;
+    color: #DBE2EF;
+}
+body header nav ul li a:hover {
+    border-bottom: 2px solid#DBE2EF;
+}
+
+.icono-nav{
+    font-size: 120%;
+    display: flex;
+    align-items: center;
+}
+.navegadorinicio {
+    justify-content: flex-end;
+    align-content: end;
+    width: 100%;
+}
+
+/* fondo y letras*/
+
+.fondo {
+    background: url(./src/multimedias/Fotos/Fondo5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-bottom: 35%;
+    padding-right: 35%;
+
+}
+
+.fondo h1 {
+    font-size: 220%;
+    color: rgb(205, 205, 212);
+}
+
+.fondo h3 {
+    font-size: 150%;
+    color:rgb(114, 129, 161);
+}
+
+/*texto*/
+
+p {
+    padding-top: 15%;
+    padding-right: 20%;
+    padding-left: 30%;
+    padding-bottom: 15%;
+    font-size: 110%;
+    line-height: 35px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+footer{
+    background-color: #112D4E;
+    padding:1%;
+    display: flex;
+}
+/**N P C**/
+
+h4 {
+    font-size: 150%;
+    color: rgb(8, 8, 48);
+}
+
+/**portfolio**/
+
+.grid-container {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 300px 300px 300px 300px;
+    gap: 20px;
+
+}
+
+.grid-item {
+    border: 2px solid black;
+    transition: all 1s;
+    
+ }
+ .grid-item img{
+     width: 100%;
+     height: 296px;
+     object-fit: cover;
+ }
+
+ .grid-item:hover {
+     transform: scale(1.5);
+}

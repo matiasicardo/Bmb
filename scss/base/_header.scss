@@ -1,0 +1,14 @@
+@import "../componentes/variables";
+
+.bg-fondo {
+    background: $bg-fondo;
+}
+
+
+.ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+.body header nav ul li a:hover {
+    border-bottom: 2px solid $primero;
+}

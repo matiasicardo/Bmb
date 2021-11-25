@@ -1,0 +1,25 @@
+$primero: #DBE2EF;
+$segundo: #112D4E;
+$font-size: 110%;
+  
+    .contacto__form {
+      width: 60rem;
+      background-color: $segundo;
+      border: 2px $primero solid;
+      color: $primero;
+      font-size: 150%;
+      font-family: 'Nunito Sans', sans-serif;
+      margin: auto;
+      padding: 1.5rem;
+  
+      .form-group {
+        padding: 0.5em;
+  
+        .btn-light {
+          color: $segundo;
+          background-color: $primero;
+          font-size: 110%;
+          border: 1px $primero solid;
+        }
+      }
+    }
