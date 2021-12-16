@@ -265,5 +265,13 @@
     "widest-line": "^3.1.0",
     "which": "^2.0.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasicardo/bmb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matiasicardo/bmb/issues"
+  },
+  "homepage": "https://github.com/matiasicardo/bmb#readme",
   "description": ""
 }

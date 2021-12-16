@@ -27,20 +27,21 @@
 </head>
 
 <body>
-  <header>
+  <!--cabezar-->
+  <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-fondo">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./index.html">
           <img src="./src/multimedias/fotos/BMB.png" alt="icono" class="w-25">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto py-4 py-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-light" aria-current="page" href="./index.html">Inicio</a>
+              <a class="nav-link active text-light" href="./index.html">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="./src/paginas/Portfolio.html">Portfolio</a>
@@ -56,6 +57,7 @@
       </div>
     </nav>
   </header>
+  <!--carrusel-->
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -87,16 +89,18 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <!--Texto-->
   <div clas="col-lg-8 col-md-10 col-sm12">
-    <p data-aos="flip-right">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid deserunt,
-      sapiente sed omnis molestias laborum ratione ullam velit dolor fuga vero
-      dicta quis repellat soluta similique nemo suscipit impedit optio!</p>
+    <p data-aos="flip-right">“El cliente puede llegar a ser el rey, pero no es el director de arte”. (Von R. Glitschka)
+      “El diseño es el pensamiento hecho visual”. (Saul Bass)
+    </p>
   </div>
+  <!--pie de pagina-->
   <div class="footer">
     <ul>
-      <li><a href="https://www.instagram.com/bmb.gd/"><img src="src/multimedias/Fotos/instagram.png" alt="Instagram"
+      <li><a href="https://www.instagram.com/bmb.gd/"><img src="src/multimedias/fotos/instagram.png" alt="instagram"
             width=5% height="auto"></a></li>
-      <li><a href="https://web.whatsapp.com/"><img src="src/multimedias/Fotos/whatsapp.png" alt="whatsapp" width=5%
+      <li><a href="https://web.whatsapp.com/"><img src="src/multimedias/fotos/whatsapp.png" alt="whatsapp" width=5%
             height="auto"></a></li>
     </ul>
   </div>

@@ -1,5 +1,5 @@
-<style> @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -130,4 +130,65 @@ h4 {
 
  .grid-item:hover {
      transform: scale(1.5);
+}
+
+@media screen and (max-width: 991px) {
+    header {
+        height: 80%;
+    }
+    .carousel {
+        height: 80%;
+    }
+    .diseños {
+        height: 80%;
+    }
+
+    footer {
+        height: 80%
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 990px) {
+    .header {
+        height: 60%;
+    }
+    .carousel {
+        height: 60%;
+    }
+    .diseños {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer {
+        height: 60%
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 989px){
+    .header {
+        height: 40%;
+    }
+    .carousel {
+        height: 40%;
+    }
+    .diseños {
+        height: 40%;
+    }
+    .footer {
+        height: 40%
+    }
+}
+
+@media screen and (min-width: 458px) and (max-width: 576px){
+    .header {
+        height: 20%;
+    }
+    .carousel {
+        height: 20%;
+    }
+    .diseños {
+        height: 20%;
+    }
+    .footer {
+        height: 20%
+    }
 }
