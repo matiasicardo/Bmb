@@ -1,22 +1,21 @@
 /** mediaqueries **/
-
-/**mobile**/
 * {
     margin: 0;
     padding: 0;
 }
+/** mobile **/
 @media screen and (max-width: 480px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
+/** tablet**/
 @media screen and (min-width:481px) and (max-width: 960px) {
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
+/** compu **/
 @media screen and (min-width: 961px) {
     .grid-container {
         grid-template-columns: repeat(4, 1fr);
